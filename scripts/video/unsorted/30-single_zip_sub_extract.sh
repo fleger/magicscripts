@@ -1,7 +1,7 @@
 echo "Single ZIP Subtitle extract"
 
-. "$MAGICSCRIPTS_D/lib/libcommon.sh"
-. "$MAGICSCRIPTS_D/lib/libsubselector.sh"
+. "$MAGICLIB_D/libcommon.sh"
+. "$MAGICLIB_D/libsubselector.sh"
 . "$MAGICSCRIPTS_D/etc/subscoremodifiers.sh"
 
 

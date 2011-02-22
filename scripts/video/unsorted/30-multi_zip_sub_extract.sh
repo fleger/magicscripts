@@ -1,5 +1,5 @@
-. "$MAGICSCRIPTS_D/lib/libcommon.sh"
-. "$MAGICSCRIPTS_D/lib/libsubfilter.sh"
+. "$MAGICLIB_D/libcommon.sh"
+. "$MAGICLIB_D/libsubfilter.sh"
 . "$MAGICSCRIPTS_D/etc/subfilters.sh"
 
 local OLD_IFS="$IFS"

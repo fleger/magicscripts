@@ -1,4 +1,4 @@
-. "$MAGICSCRIPTS_D/lib/libseries.sh"
+. "$MAGICLIB_D/libseries.sh"
 
 quicksort() {
   local sortFunc="$1"

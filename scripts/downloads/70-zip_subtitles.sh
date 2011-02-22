@@ -1,4 +1,6 @@
-. "$MAGICSCRIPTS_D/lib/libcommon.sh"
+. "$MAGICLIB_D/libcommon.sh"
+. "$MAGICSCRIPTS_D/etc/dl.sh"
+
 
 [[ """$(file --mime-type -b "$1/$2")""" == "application/zip" ]] &&
 unzip -l "$1/$2" | isSubtitleArchive &&

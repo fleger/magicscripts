@@ -1,4 +1,5 @@
-. "$MAGICSCRIPTS_D/lib/libcommon.sh"
+. "$MAGICLIB_D/libcommon.sh"
+. "$MAGICSCRIPTS_D/etc/dl.sh"
 
 # Move subtitle rar archives to video unsorted (untested)
 [[ """$(file --mime-type -b "$1/$2")""" == "application/x-rar" ]] &&

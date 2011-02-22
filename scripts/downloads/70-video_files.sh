@@ -1,3 +1,6 @@
+. "$MAGICSCRIPTS_D/etc/dl.sh"
+
+
 # Move videos to video unsorted
 # TODO: use mime type instead of extensions
 

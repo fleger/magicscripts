@@ -1,3 +1,6 @@
+. "$MAGICSCRIPTS_D/etc/dl.sh"
+
+
 # Move subtitles to video unsorted
 # NOTE: no mime type available for subtitles
 

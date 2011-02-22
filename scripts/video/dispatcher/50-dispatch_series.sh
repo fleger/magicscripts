@@ -1,4 +1,4 @@
-. "$MAGICSCRIPTS_D/lib/libseries.sh"
+. "$MAGICLIB_D/libseries.sh"
 
 local CORRECT_NAME_REGEX="^(.+)_([0-9]+)x([0-9]+)(.*)$"
 local filePath
