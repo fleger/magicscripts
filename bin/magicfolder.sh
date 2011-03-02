@@ -2,9 +2,9 @@
 
 MAGIC_SCRIPT_NAME=".magicscript"
 MAGIC_FILTER_PREFIX="magicFilters."
-LOG_FILE="/dev/null"
+# LOG_FILE="/dev/null"
 # LOG_FILE="/tmp/mf.log"
-# LOG_FILE=/dev/stdout
+LOG_FILE=/dev/stdout
 
 while getopts p: opt; do
   case "$opt" in
