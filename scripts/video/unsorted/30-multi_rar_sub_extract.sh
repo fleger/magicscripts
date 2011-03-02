@@ -1,6 +1,7 @@
 . "$MAGICLIB_D/libcommon.sh"
 . "$MAGICLIB_D/libsubfilter.sh"
 . "$MAGICSCRIPTS_D/etc/subfilters.sh"
+. "$MAGICSCRIPTS_D/etc/env.sh"
 
 local OLD_IFS="$IFS"
 [[ "$(file --mime-type -b $1/$2)" == "application/x-rar" ]] &&

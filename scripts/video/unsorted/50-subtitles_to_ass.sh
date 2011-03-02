@@ -1,3 +1,5 @@
+. "$MAGICSCRIPTS_D/etc/env.sh"
+
 [[ "$2" == *.@(srt|ssa|sub) ]] &&
 echo "Going to convert $1/$2 to ass..." &&
 cd "$1" &&

@@ -3,7 +3,7 @@ echo "Single ZIP Subtitle extract"
 . "$MAGICLIB_D/libcommon.sh"
 . "$MAGICLIB_D/libsubselector.sh"
 . "$MAGICSCRIPTS_D/etc/subscoremodifiers.sh"
-
+. "$MAGICSCRIPTS_D/etc/env.sh"
 
 [[ "$(file --mime-type -b $1/$2)" == "application/zip" ]] &&
 isARecognizableName "$2" &&

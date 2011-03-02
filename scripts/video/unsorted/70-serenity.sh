@@ -1,4 +1,4 @@
-. "$MAGICSCRIPTS_D/etc/proxy.sh"
+. "$MAGICSCRIPTS_D/etc/env.sh"
 
 [[ "$2" == *.@(avi|mp4|mkv|flv|wmv|mpg|mpeg|webm|ogm|ogv|ass) ]] &&
 cd "$1" &&
