@@ -9,4 +9,7 @@ installEpisode() {
   echo "Installing $1 to $SERIES_BASE_PATH/$2" &&
   mkdir -p "$SERIES_BASE_PATH/$dirName" &&
   mv -b "$1" "$SERIES_BASE_PATH/$2"
+  for d in "${SERIES_LINK_DIRECTORIES}"; do
+    ln -s "$SERIES_BASE_PATH/$2" "$d"
+  done
 }
