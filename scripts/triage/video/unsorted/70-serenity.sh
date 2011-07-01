@@ -1,6 +1,6 @@
 . "$MAGICSCRIPTS_D/etc/env.sh"
 
-[[ "$2" == *.@(avi|mp4|mkv|flv|wmv|mpg|mpeg|webm|ogm|ogv|ass) ]] &&
+[[ "$2" == *.@(avi|divx|mp4|mkv|flv|wmv|mpg|mpeg|webm|ogm|ogv|ass) ]] &&
 cd "$1" &&
 echo "Trying serenaming $1/$2..." &&
 # Unglourious hack to avoid having too many requests at the same time
